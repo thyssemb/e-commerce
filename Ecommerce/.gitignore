@@ -1,0 +1,19 @@
+# Ignore environment configuration files
+.env
+
+# Ignore IDE configuration files
+.idea/
+.idea/*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore les fichiers et dossiers de build
+bin/
+obj/
+
+# Other
+*.log
+
+# logs
+appsettings.json
