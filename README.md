@@ -71,7 +71,7 @@
 
 <h2>🛠 Fonctionnalités</h2>
 <ul>
-    <li>Système d’authentification avec JWT, OTP, Google, Facebook, Twitter</li>
+    <li>Système d’authentification avec JWT, OTP, Google.</li>
     <li>Gestion du panier :
         <ul>
             <li>Nettoyage du panier à la déconnexion</li>
