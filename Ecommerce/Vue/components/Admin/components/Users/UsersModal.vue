@@ -18,27 +18,19 @@ const props = defineProps({
 
 onMounted(() => {
   const token = localStorage.getItem('jwt');
-  console.log('jwt:', token);
   if (token) {
     const decodedToken: any = jwtDecode(token);
-    console.log(decodedToken);
     if (decodedToken.role === 'super-admin'){
-      console.log("super admin")
-      console.log(isSuperAdmin.value);
       isSuperAdmin.value = false
     }else {
-      console.log("TU N'EST PAS super admin")
-      console.log(isSuperAdmin.value);
+      console.log("Tu n'es pas super admin")
       isSuperAdmin.value = true
     }
   }
 })
 
-const handleSubmit = async () => 
+const handleSubmit = async () =>
 {
-  console.log(role.value.toLowerCase());
-  console.log(selectedRole.value.toLowerCase());
-  console.log(props.user.id);
   const id = props.user.id;
 
   const data = {
@@ -50,7 +42,7 @@ const handleSubmit = async () =>
   });
 
   if (response.ok) {
-    console.log(`le role de ${props.user.id} à bien été modifié`);
+    console.log(`le role de ${props.user.id} a bien été modifié`);
   } else {
     console.error('Erreur lors de la modification du role');
   }

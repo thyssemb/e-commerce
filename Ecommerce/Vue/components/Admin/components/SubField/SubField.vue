@@ -6,12 +6,12 @@ import SubField from "~/components/Admin/components/SubField/SubField.vue";
 
 const props = defineProps<{
   subField: { id: number; value: string; subField: any[] };
-  level: number; // Niveau de profondeur
+  level: number;
 }>();
 
 const emit = defineEmits<{
   (e: 'update', id: number, subField: any): void;
-  (e: 'remove', id: number): void; // Pass the ID of the subfield to be removed
+  (e: 'remove', id: number): void;
 }>();
 
 const addSubField = () => {
@@ -21,7 +21,7 @@ const addSubField = () => {
 };
 
 const removeSubField = () => {
-  emit('remove', props.subField.id); // Emit the ID of the subfield to be removed
+  emit('remove', props.subField.id);
 };
 
 const updateSubField = (subFieldId: number, updatedSubField: any) => {
