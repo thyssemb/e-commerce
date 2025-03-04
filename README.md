@@ -13,7 +13,7 @@
     <li><a href="https://github.com/ewaewa23" target="_blank">Mateo Gibert</a> (Développeur Full Stack) - Initialisation du projet, mise en place du back-end et des fondations front-end avec Vue.js.</li>
     <li><a href="https://github.com/antonyEpitec" target="_blank">Antony Rinaldo</a> (Développeur Full Stack)</li>
     <li><a href="https://github.com/HugoNannucci" target="_blank">Hugo Nannucci</a> (Développeur Full Stack) - Développement de la partie front-end, intégration de Vue.js et Nuxt.js pour l'affichage des données et des vues.</li>
-    <li><a href="https://github.com/antonyEpitec" target="_blank">Thyssem Makhlouf</a> (Développeuse Full Stack) (+) Design de toutes les interfaces de l'application et optimisation de l'expérience utilisateur.</li>
+    <li><a href="https://github.com/antonyEpitec" target="_blank">Thyssem Makhlouf</a> (Développeuse Full Stack) - Design de toutes les interfaces de l'application et création de services back-end</li>
 </ul>
 
 <h2>📂 Architecture</h2>
